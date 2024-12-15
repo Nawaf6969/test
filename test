@@ -1,0 +1,5 @@
+local allPlayers = GetPlayers()
+
+for i, player in ipairs(allPlayers) do
+  HighlightPlayer(player)
+end
